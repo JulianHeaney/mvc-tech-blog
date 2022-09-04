@@ -4,9 +4,9 @@
 This is a blog site where users can publish, edit and delete their own blog posts and comment on other posts.
 
 ## Website
-https://git.heroku.com/boiling-mesa-59823.git
+https://boiling-mesa-59823.herokuapp.com/
 
-![ScreenShot](./assets/images/)
+![ScreenShot](./assets/images/tech_blog.png)
 
 ## Built With
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
