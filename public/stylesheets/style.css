@@ -61,6 +61,10 @@ a:hover {
   background-color: #3486eb;
 }
 
+.user-info {
+  float: right;
+}
+
 button:not(.logout) {
   background-color: rgb(190, 213, 190);
   border: 0;
@@ -143,25 +147,6 @@ main {
   padding: 2% 4%;
 }
 
-
-/* .btn-no-style {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
-  font-weight: bold;
-  transition: color .1s;
-  margin-left: 16px;
-}
-
-.btn-no-style:hover {
-  background: none;
-  color: #3486eb;
-} */
-
 .delete-post-btn {
   background-color: #d41414;
 }
@@ -208,8 +193,16 @@ ul {
   background-color: #1f9c13;
 }
 
+.comments a {
+  color: black;
+  font-weight: normal;
+}
 .comment-form {
   margin-bottom: 5%;
+}
+
+#comment-form {
+  border-top: 35px solid black;
 }
 
 .comment {

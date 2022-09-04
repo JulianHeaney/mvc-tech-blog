@@ -15,7 +15,7 @@ const postdata = [
         title: 'Object-Relational Mapping',
         description: 'I just started learning about this, and I have never felt so alive!',
         user_id: 3
-    }
+    }  
 ];
 
 const seedPosts = () => Post.bulkCreate(postdata);

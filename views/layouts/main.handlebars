@@ -4,17 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just Tech News</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-
-        </main>
-        <footer>
-            Thanks for visiting!
-        </footer>
-    </div>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Tech Blog</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
@@ -25,8 +14,8 @@
             <nav>
                 <a href="/" class="nav-link">Home</a>
                 {{#if loggedIn}}
-                <a href="/dashboard" class="nav-link">dashboard</a>
-                <button id="logout" class="logout">logout</button>
+                <a href="/dashboard" class="nav-link">Dashboard</a>
+                <button id="logout" class="logout">Logout</button>
                 {{else}}
                 <a href="/login">login</a>
                 {{/if}}
@@ -37,6 +26,12 @@
         </header>
         <main>
             {{{ body }}}
+        </main>
+        <footer>
+            Thanks for visiting!
+        </footer>
+    </div>
+
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
     {{/if}}
